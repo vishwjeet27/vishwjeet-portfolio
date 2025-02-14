@@ -1,10 +1,11 @@
 function Education() {
   return (
     <>
-      <h1 className="mb-5 mt-25 text-4xl font-extrabold leading-none text-center tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
+      <h1 id="education" className="mb-5 py-5 mt-25 text-4xl font-extrabold leading-none text-center tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
         My Education
       </h1>
-      <p className="mb-7 text-lg max-w-400 m-auto p-4 font-normal text-center text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">
+      <div className="w-24 h-1 bg-gradient-to-r from-blue-600 to-purple-600 mx-auto rounded-full"></div>
+      <p className=" text-lg max-w-400 m-auto p-4 font-normal text-center text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">
           With a dynamic academic journey that bridges the worlds of commerce
           and technology, my education reflects a passion for growth and
           adaptability. From foundational business insights to mastering the
@@ -12,7 +13,7 @@ function Education() {
           that enables me to approach problems with a unique, multidimensional
           perspective.
         </p>
-      <div className="mt-10 mb-7 max-w-400 m-auto bg-white border-gray-200 dark:bg-gray-900 flex flex-row flex-wrap items-center justify-around mx-auto p-5 text-gray-900 dark:text-white">
+      <div className="mt-5 mb-7 max-w-320 m-auto bg-white border-gray-200 dark:bg-gray-900 flex flex-row flex-wrap items-center justify-around mx-auto p-5 text-gray-900 dark:text-white">
         <div className="max-w-sm p-6 mb-5 bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
           <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
             Higher Secondary Education

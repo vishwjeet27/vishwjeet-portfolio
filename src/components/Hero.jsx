@@ -2,7 +2,7 @@ import VishwjeetImage from "../assets/images/vishwjeetimage.jpg";
 function Hero() {
   return (
     <>
-      <div className="mt-6 mb-6 bg-white border-gray-200 dark:bg-gray-900 flex flex-row flex-wrap-reverse items-center justify-around mx-auto p-5 text-gray-900 dark:text-white">
+      <div className="mt-10 bg-white border-gray-200 dark:bg-gray-900 flex flex-row flex-wrap-reverse items-center justify-around mx-auto p-5 text-gray-900 dark:text-white">
         <div className="w-2xl">
           <h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
             Hi! I Am{" "}
